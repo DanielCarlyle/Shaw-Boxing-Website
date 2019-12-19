@@ -93,7 +93,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  /*padding: 200px 0 280px 0; */
   position: relative;
 }
   #slider:before {
@@ -1471,16 +1471,16 @@ font-weight: lighter;
 }
 
 .hero-content {
-background: rgba(7, 6, 2, 0.4);
-float: right;
-border-top-left-radius: 4%;
-width: 45%;
-border-bottom-left-radius: 0%;
-min-width: 450px;
-padding: 5em 4em;
-margin-top: 30em;
-text-align: left;
-color: #fff;
+  background: rgba(7, 6, 2, 0.4);
+  float: right;
+  border-top-left-radius: 4%;
+  width: 45%;
+  border-bottom-left-radius: 0%;
+  min-width: 450px;
+  padding: 5em 4em;
+  /* margin-top: 30em; */
+  text-align: left;
+  color: #fff;
 }
 .home .shaw-text {
 font-size: 6em;
@@ -2101,13 +2101,15 @@ body, button, input, select, textarea {
       font-size: 0.9em;
   }
 
-  /* Home Page */
+  /* Home Page 
 
   .hero-content {
     background: rgba(47, 47, 47, 0.47);
     border-radius: initial;
     margin-top: 9em;
 }
+
+*/
   .home-philosophy-section, .home-location-section {
       height: 500px;
   }
